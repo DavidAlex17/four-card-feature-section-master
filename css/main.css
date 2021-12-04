@@ -8,10 +8,23 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: Poppins, sans-serif;
   background-color: #fafafa;
-  font-size: 15px;
 }
 
 .attribution {
@@ -23,21 +36,27 @@ body {
   color: #3e52a3;
 }
 
-header {
+.main {
   text-align: center;
 }
 
-header h1:first-of-type {
-  font-weight: 200;
+main__header {
+  background-color: lightblue;
 }
 
-header h1:last-of-type {
-  font-weight: 600;
+main__footer {
+  background-color: lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-header p {
-  font-weight: 400;
-  max-width: 50%;
-  margin: 0 auto;
+main__footer--one {
+  width: 100%;
+  background-color: lightcyan;
 }
 /*# sourceMappingURL=main.css.map */

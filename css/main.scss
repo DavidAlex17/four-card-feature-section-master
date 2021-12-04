@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 // VARIABLES
-$primary-color-100: hsl(0, 78%, 62%);    // Red
-$primary-color-200: hsl(180, 62%, 55%);  // Cyan
-$primary-color-300: hsl(34, 97%, 64%);   // Orang
-$primary-color-400: hsl(212, 86%, 64%);  // Blue
-$neutral-color-100: hsl(234, 12%, 34%);  // Very Dark Blue
-$neutral-color-200: hsl(229, 6%, 66%);   // Grayish Blue
-$neutral-color-300: hsl(0, 0%, 98%);     // Very Light Gray
+$red: hsl(0, 78%, 62%);               // Red
+$cyan: hsl(180, 62%, 55%);            // Cyan
+$orange: hsl(34, 97%, 64%);           // Orang
+$blue: hsl(212, 86%, 64%);            // Blue
+$very-dark-blue: hsl(234, 12%, 34%);  // Very Dark Blue
+$grayish-blue: hsl(229, 6%, 66%);     // Grayish Blue
+$very-light-gray: hsl(0, 0%, 98%);    // Very Light Gray
 
 // FILE IMPORTS
-@import 'index';
+@import 'style';

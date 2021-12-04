@@ -1,0 +1,56 @@
+// GENERAL 
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  background-color: $very-light-gray;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a { color: hsl(228, 45%, 44%); }
+}
+
+
+
+// MAIN
+.main {
+  text-align: center;
+}
+
+// HEADER
+main__header {
+  background-color: lightblue;
+}
+
+// FOOTER
+main__footer {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+
+  &--one {
+    width: 100%;
+    background-color: lightcyan;
+  }
+
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
