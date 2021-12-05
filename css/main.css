@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,11 +40,11 @@ body {
   text-align: center;
 }
 
-main__header {
+.main__header {
   background-color: lightblue;
 }
 
-main__footer {
+.main__footer {
   background-color: lightgray;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,8 +55,29 @@ main__footer {
           flex-direction: column;
 }
 
-main__footer--one {
-  width: 100%;
+.main__footer .card {
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem auto;
+}
+
+.main__footer--one {
   background-color: lightcyan;
+  background-image: url(/images/icon-supervisor.svg);
+}
+
+.main__footer--two {
+  background-color: lightcoral;
+  background-image: url(/images/icon-team-builder.svg);
+}
+
+.main__footer--three {
+  background-color: lightpink;
+  background-image: url(/images/icon-karma.svg);
+}
+
+.main__footer--four {
+  background-color: lightseagreen;
+  background-image: url(/images/icon-calculator.svg);
 }
 /*# sourceMappingURL=main.css.map */

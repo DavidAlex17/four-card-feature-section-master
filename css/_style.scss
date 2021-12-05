@@ -8,11 +8,11 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; // font-size 1em = 10px on default browser settings
 }
 
 body {
-  min-height: 100vh; 
+  height: 100%; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,26 +31,45 @@ body {
 // MAIN
 .main {
   text-align: center;
-}
 
-// HEADER
-main__header {
-  background-color: lightblue;
+  &__header {
+    background-color: lightblue;
+  }
 }
 
 // FOOTER
-main__footer {
+.main__footer {
   background-color: lightgray;
   display: flex;
   flex-direction: column;
-
-  &--one {
-    width: 100%;
-    background-color: lightcyan;
+  
+  .card {
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem auto;
   }
 
+  &--one {
+    background-color: lightcyan;
+    background-image: url(/images/icon-supervisor.svg);
+  }
+
+  &--two {
+    background-color: lightcoral;
+    background-image: url(/images/icon-team-builder.svg);
+  }
+
+  &--three {
+    background-color: lightpink;
+    background-image: url(/images/icon-karma.svg);
+  }
+
+  &--four {
+    background-color: lightseagreen;
+    background-image: url(/images/icon-calculator.svg);
+  }
+  
   // display: flex;
   // align-items: center;
   // justify-content: center;
 }
-
