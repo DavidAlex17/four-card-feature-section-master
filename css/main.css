@@ -2,8 +2,8 @@
 *,
 *::before,
 *::after {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -23,29 +23,35 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', 'sans-serif';
   background-color: #fafafa;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
+  font-size: 1.5rem;
 }
 
 .main {
-  text-align: center;
+  margin: 0.5em;
+  width: 100%;
 }
 
 .main__header {
-  background-color: lightblue;
+  text-align: center;
+}
+
+.main__header h1:nth-child(1) {
+  font-weight: 200;
+  color: #4c4e61;
+}
+
+.main__header h1:nth-child(2) {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.main__header p {
+  color: #a3a5ae;
 }
 
 .main__footer {
-  background-color: lightgray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,28 +62,14 @@ body {
 }
 
 .main__footer .card {
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 30rem;
   margin: 1rem auto;
 }
 
-.main__footer--one {
-  background-color: lightcyan;
-  background-image: url(/images/icon-supervisor.svg);
-}
-
-.main__footer--two {
-  background-color: lightcoral;
-  background-image: url(/images/icon-team-builder.svg);
-}
-
-.main__footer--three {
-  background-color: lightpink;
-  background-image: url(/images/icon-karma.svg);
-}
-
-.main__footer--four {
-  background-color: lightseagreen;
-  background-image: url(/images/icon-calculator.svg);
+div:is(.main__footer--one, .main__footer--two, .main__footer--three, .main__footer--four) {
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=main.css.map */
