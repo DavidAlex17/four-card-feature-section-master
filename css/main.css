@@ -115,4 +115,19 @@ div:is(.main__footer--one, .main__footer--two, .main__footer--three, .main__foot
 .main__footer img {
   float: right;
 }
+
+@media (min-width: 768px) {
+  .main__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
